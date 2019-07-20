@@ -8,7 +8,7 @@ import java.io.*;
 import java.net.Socket;
 import java.util.Scanner;
  
-public class ClientWindow extends JFrame {
+public class clientchat extends JFrame {
   // адрес сервера
   private static final String SERVER_HOST = "localhost";
   // порт
@@ -31,7 +31,7 @@ public class ClientWindow extends JFrame {
   }
  
   // конструктор
-  public ClientWindow() {
+  public clientchat() {
     try {
       // подключаемся к серверу
       clientSocket = new Socket(SERVER_HOST, SERVER_PORT);
